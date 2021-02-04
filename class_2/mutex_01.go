@@ -1,4 +1,4 @@
-package mutex_src
+package main
 
 // CAS操作，当时还没有atomic包
 func cas(val *int32, old, new int32) bool {}
